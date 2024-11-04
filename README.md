@@ -20,7 +20,6 @@ Welcome to my personal website! This project is designed to showcase my skills a
 
 For any inquiries or collaborations, please reach out to me at:
 
-- Email: mmdalroy@gmail.com
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-alroy/)
 
 Feel free to explore my website and get in touch with me. I hope you enjoy you it as much as I enjoyed creating it!
