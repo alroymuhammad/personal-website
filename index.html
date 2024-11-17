@@ -3,55 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>Alroy</title>
   </head>
   <body>
     <header>
-      <h2>Muhammad Alroy</h2>
-      <nav>
-        <ul>
-          <li>Blog</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
+      <div class="navbar-content">
+        <nav>
+          <h2>Muhammad Alroy</h2>
+          <ul>
+            <li>Blog</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
       <div id="hero">
-        <h1>Hello, I'm Alroy!</h1>
-        <p>
-          I am a software engineer from Surabaya, Indonesia. Currently, I’m
-          using Laravel and React as my Tools. Also, I love writing too!
-        </p>
+        <div class="hero-text">
+          <h1>Hello, I'm Alroy!</h1>
+          <p>
+            I am a software engineer from Surabaya, Indonesia. Currently, I’m
+            using Laravel and React as my Tools. Also, I love writing too!
+          </p>
 
-        <p>
-          I work at PT. Bisi International, where I spend most of my time
-          building program to optimize the company business process.
-        </p>
+          <p>
+            I work at PT. Bisi International, where I spend most of my time
+            building program to optimize the company business process.
+          </p>
+        </div>
+
+        <img src="/assets/alroy.jpeg" alt="profile-picture" />
       </div>
 
       <div id="projects">
         <h2>Projects</h2>
-
-        <ul>
-          <li>
-            <div class="card">
-              <h5>Document Tracking Process</h5>
-              <h6>July 2024 - Present</h6>
-              <p>
-                Optimized Document Processes by Integrated Digitalized Process
-                Tracking
-              </p>
-
-              <ul class="tech-stack">
-                <li>Laravel</li>
-                <li>React</li>
-              </ul>
-
-              <button>Read More</button>
+        <div id="projects-container">
+          <div class="card-container">
+            <h5>Document Tracking Process</h5>
+            <h6>July 2024 - Present</h6>
+            <p>
+              Optimized Document Processes by Integrated Digitalized Process
+              Tracking
+            </p>
+            <div class="bottom-side">
+              <div class="tech-stack">
+                <p class="laravel">Laravel</p>
+                <p class="react">React</p>
+              </div>
+              <a href="">Read More</a>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
 
       <div id="personal-projects">
