@@ -80,7 +80,7 @@ nav > ul > li {
   background-color: #d9d9d9;
   list-style: none;
   padding: 15px;
-  max-width: 488px;
+  max-width: 468px;
   margin-top: 39px;
 }
 
@@ -124,10 +124,50 @@ nav > ul > li {
 .bottom-side {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-.bottom-side a {
+a {
   color: #2d1724;
-  text-decoration: underline; /* Remove underline */
+  text-decoration: underline;
   font-weight: bold;
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.personal-projects > img {
+  max-width: 498px;
+}
+#personal-projects > h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 50px 0 0 0;
+}
+
+#personal-projects-container > img {
+  max-width: 468px;
+  font-weight: normal;
+  margin: 20px 0 20px 0;
+}
+
+.tech-stack > .html {
+  padding: 10px;
+  background-color: #f23b2e;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.tech-stack > .css {
+  padding: 10px;
+  background-color: #264de4;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+#personal-writings > h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 50px 0 0 0;
+}
+
+#personal-writings-container > a {
+  display: block;
+  margin: 15px;
 }
