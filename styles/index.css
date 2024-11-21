@@ -31,7 +31,7 @@ nav > h2 {
   font-size: 30px;
 }
 
-nav > ul > li {
+nav > ul > li > a {
   font-size: 24px;
   font-weight: normal;
   font-style: normal;
@@ -142,9 +142,29 @@ a {
 }
 
 #personal-projects-container > img {
-  max-width: 468px;
+  width: 468px;
   font-weight: normal;
-  margin: 20px 0 20px 0;
+  margin-top: 20px;
+}
+
+.personal-card-container {
+  background-color: #d9d9d9;
+  list-style: none;
+  padding: 15px;
+  max-width: 468px;
+}
+
+.personal-card-container > h5 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.personal-card-container > h6 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #a3979e;
+  margin: 0;
 }
 
 .tech-stack > .html {
@@ -169,5 +189,19 @@ a {
 
 #personal-writings-container > a {
   display: block;
-  margin: 15px;
+  margin: 20px 0 20px 0;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#right-footer {
+  text-align: right;
 }
