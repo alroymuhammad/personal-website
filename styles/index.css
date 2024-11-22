@@ -66,8 +66,8 @@ nav > ul > li > a {
   height: 240px;
 }
 #projects > h2 {
-  margin: 50px 0 0 0;
-  font-size: 50px;
+  margin: 100px 0 0 0;
+  font-size: 35px;
 }
 #projects-container {
   display: flex;
@@ -136,9 +136,9 @@ a {
   max-width: 498px;
 }
 #personal-projects > h2 {
-  font-size: 50px;
+  font-size: 35px;
   font-weight: bold;
-  margin: 50px 0 0 0;
+  margin: 100px 0 0 0;
 }
 
 #personal-projects-container {
@@ -188,20 +188,20 @@ a {
 }
 
 #personal-writings > h2 {
-  font-size: 50px;
+  font-size: 35px;
   font-weight: bold;
-  margin: 50px 0 0 0;
+  margin: 100px 0 0 0;
 }
 
 #personal-writings-container > a {
   display: block;
-  margin: 20px 0 20px 0;
+  margin: 40px 0 40px 0;
   font-weight: normal;
   font-size: 25px;
 }
 
 footer {
-  margin-top: 100px;
+  margin-top: 150px;
   display: flex;
   justify-content: start;
   gap: 500px;
