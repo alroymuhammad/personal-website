@@ -141,8 +141,14 @@ a {
   margin: 50px 0 0 0;
 }
 
+#personal-projects-container {
+  display: flex;
+  flex-direction: column;
+  width: 498px;
+}
+
 #personal-projects-container > img {
-  width: 468px;
+  width: 100%;
   font-weight: normal;
   margin-top: 20px;
 }
@@ -191,17 +197,24 @@ a {
   display: block;
   margin: 20px 0 20px 0;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 footer {
   margin-top: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
+  gap: 500px;
   align-items: center;
-  padding: 20px;
+  padding: 20px 0 20px 0;
 }
 
 #right-footer {
-  text-align: right;
+  align-items: flex-start;
+}
+
+#right-footer > a {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
 }
