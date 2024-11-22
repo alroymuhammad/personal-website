@@ -102,25 +102,22 @@ nav > ul > li > a {
   list-style: none;
   gap: 15px;
 }
-.tech-stack {
-  display: inline-flex;
-  list-style: none;
-  gap: 15px;
+
+.badge {
+  font-size: 0.8rem;
+  padding: 5px 7px;
+  color: #ffffff;
+  border-radius: 8px;
 }
 
-.tech-stack > .laravel {
-  padding: 10px;
+.badge.laravel {
   background-color: #f9322c;
-  color: #ffffff;
-  border-radius: 8px;
 }
 
-.tech-stack > .react {
-  padding: 10px;
+.badge.react {
   background-color: #264de4;
-  color: #ffffff;
-  border-radius: 8px;
 }
+
 .bottom-side {
   display: flex;
   justify-content: space-between;
