@@ -25,7 +25,7 @@ nav > ul {
   margin: 0;
   padding: 0;
 }
-nav > h2 {
+nav > h2 > a{
   text-decoration: underline;
   font-weight: normal;
   font-style: normal;
@@ -214,3 +214,38 @@ footer {
 }
 
 /* Contact Page */
+.main-contact{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.container{
+  width: 80%;
+}
+
+.input{
+  border: 1.5px solid #2d1724;
+  border-radius: 3px;
+}
+
+.submit-button{
+  border: 1.5px solid #2d1724;
+  border-radius: 3px;
+  height: 35px;
+}
