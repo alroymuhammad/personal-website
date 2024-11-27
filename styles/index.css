@@ -72,7 +72,8 @@ nav > ul > li > a {
 }
 #projects-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
 }
