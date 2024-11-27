@@ -71,9 +71,8 @@ nav > ul > li > a {
   font-size: 35px;
 }
 #projects-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   gap: 20px;
 }
